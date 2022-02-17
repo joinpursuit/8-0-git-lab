@@ -11,7 +11,7 @@ Create a new directory called `git-lab/`. Then, navigate inside of that director
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+mkdir git-lab/
 ```
 
 ## 2
@@ -21,7 +21,7 @@ Initialize the directory as a git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+git init
 ```
 
 ## 3
@@ -31,7 +31,7 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+git status
 ```
 
 ## 4
@@ -41,7 +41,7 @@ Create a new file called `readme.md`. Then stage that file.
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+git add read.me
 ```
 
 ## 5
@@ -51,7 +51,7 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+git status
 ```
 
 ## 6
@@ -67,7 +67,7 @@ Then, check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+git status
 ```
 
 ## 7
@@ -77,7 +77,7 @@ Commit your changes and include a sensible commit message. Then, check your repo
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+commit -m "file name"
 ```
 
 ## 8
@@ -87,7 +87,7 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+git status
 ```
 
 ## 9
@@ -97,5 +97,5 @@ Stage your changes and then make another commit with a sensible commit message.
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+git push origin main
 ```
